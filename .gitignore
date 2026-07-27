@@ -1,5 +1,15 @@
 # Python
 __pycache__/
+.claude/
+models/
+runs/
+sim/
+sim_cache/
+sim_output/
+downloads/
+fpm/
+imagery_cache
+
 *.pyc
 *.pyo
 *.pyd
@@ -9,6 +19,24 @@ venv/
 
 # Generated HTML output
 goes19_replay_v3.html
+goes19_hotspots.html
+goes19_hotspots.py
+goes19_live_screenshot.png
+goes19_replay_v2.html
+goes19_replay_v2.py
+goes19+replay_v3.py
+CLAUDE.md
+.nightowl-context.md
+goes19_v3_screenshot.png
+holdout_run_log.txt
+IDEAS.md
+infere_queue.py
+multisat_fire.html
+multisat_fires.py
+paste.pdf
+retrain.py
+review_server.py
+review.db
 
 # Model weights (large binary — commit separately or use Git LFS)
 *.onnx
